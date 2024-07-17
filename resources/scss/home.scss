@@ -1,5 +1,3 @@
-// resources/scss/home.scss
-
 @import 'header';
 @import 'footer';
 
@@ -48,10 +46,20 @@ body {
         transform: translate(-70%, -40%);
         
     }
+    .small-text{
+      font-size: 36px;
+      color: $text-color;
+      position: absolute; 
+      top: 400px;
+      right: 500px; 
+      transform: translate(-70%, -40%);
+  }
+
+    }
     
     .highlight1 {
         color: #BF2D2E;
         display: inline-block;
         white-space: nowrap;
     }
-  }
+  
