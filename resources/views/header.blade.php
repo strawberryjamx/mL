@@ -1,4 +1,3 @@
-<!-- resources/views/header.blade.php -->
 <header class="header">
     <div class="container">
         <div class="logo">
