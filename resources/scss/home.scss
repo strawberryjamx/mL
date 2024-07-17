@@ -1,0 +1,57 @@
+// resources/scss/home.scss
+
+@import 'header';
+@import 'footer';
+
+$background: rgba(255, 255, 255, 0.8);
+$text-color: #ffffff;
+$link-color: #5A5A5A;
+$container-width: 90%;
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    background-size: cover;
+    background-color: #EDEDED; 
+    height: auto; 
+}
+
+.section1 {
+    background-image: url('/public/images/mL-bg.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    .content1 {
+        text-align: center; 
+        font-family: 'Kanit', sans-serif;
+    }
+
+    .headline1 {
+        font-size: 130px;
+        color: $text-color;
+        position: absolute;
+        top: 45%; 
+        left: 42%;
+        transform: translate(-70%, -40%);
+    }
+    .headline2 {
+        font-size: 130px;
+        color: $text-color;
+        position: absolute;
+        top: 58%;
+        left: 85%; 
+        transform: translate(-70%, -40%);
+        
+    }
+    
+    .highlight1 {
+        color: #BF2D2E;
+        display: inline-block;
+        white-space: nowrap;
+    }
+  }
