@@ -11,9 +11,22 @@
     @include('header')
     <section class="section1">
         <div class="content1">
-            <h1 class="headline1">Welcome to <span class="highlight1">moodLearning</span></h1>
-            <h2 class="headline2">Your Learning Partner</h2>
-            <p class="small-text">Discover our services and solutions.</p>
+            <h1 class="headline1">
+                <span class="highlight1">E-LEARNING</span>
+            </h1>
+            <h3 class="small-text">
+                <span class="and">and</span>
+            </h3>
+            
+            <h1 class="headline2">
+                <span class="highlight2">BUSINESS</span>
+            </h1>
+        </div>
+    </section>
+
+    <section class="content2">
+        <div class="content2">
+            <h1></h1>
         </div>
     </section>
     @include('footer')
